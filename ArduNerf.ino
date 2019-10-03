@@ -1,7 +1,5 @@
 //Arduino program to control a nerf blaster with brushless flywheels and a servo for feeding darts into the flywheels
-//The pushbuttons im using in this example are OSEPP Push Button Modules  http://osepp.com/products/sensors-arduino-compatible/push-button-module/
-//Arduino controller used during this development is an Intel Curie powered Arduino 101 https://www.arduino.cc/en/Main/ArduinoBoard101 with an OSEPP SensorShield on top of it http://osepp.com/products/shield-arduino-compatible/sensor-shield/.  You will need to use OPTO ESCs and a seperate power feed for this setup!
-//Also tested wih an ATMEGA2560 based Multiwii Flight Controller i had laying around http://www.readytoflyquads.com/multiwii-pro-2-0-flight-controller.  To use this you will need to make sure one of your ESCs has a BEC built in.
+//Arduino controller used during this development is an Ardiono Nano Every
 //ESCs utilized here are http://www.hobbyking.com/hobbyking/store/__39708__Afro_ESC_30Amp_Multi_rotor_Motor_Speed_Controller_SimonK_Firmware_.html.  
 
 
@@ -17,9 +15,9 @@ Servo feedServo;
 const int spinButtonPin = 8;  // the number of the pin where the spin button is connected
 const int feedButtonPin = 7;  // the number of the pin where the feed button is connected
 const int ledPin = 13;      // the number of the LED pin
-const int ESC1Pin = 5;      //piuninumber of the first ESC
-const int ESC2Pin = 6;     //pin number of the second ESC
-const int feedServoPin=9;  //pin number for the servo that will be pushing darts into the flywheels
+const int ESC1Pin = 23;      //pin nnumber of the first ESC
+const int ESC2Pin = 24;     //pin number of the second ESC
+const int feedServoPin = 9;  //pin number for the servo that will be pushing darts into the flywheels
 
 
 // Variables will change:
