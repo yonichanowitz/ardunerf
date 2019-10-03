@@ -17,7 +17,7 @@ Servo feedServo;
 const int spinButtonPin = 8;  // the number of the pin where the spin button is connected
 const int feedButtonPin = 7;  // the number of the pin where the feed button is connected
 const int ledPin = 13;      // the number of the LED pin
-const int ESC1Pin = 5;      //piuninumber of the first ESC
+const int ESC1Pin = 5;      //pin number of the first ESC
 const int ESC2Pin = 6;     //pin number of the second ESC
 const int feedServoPin=9;  //pin number for the servo that will be pushing darts into the flywheels
 
